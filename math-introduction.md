@@ -81,14 +81,14 @@ $$
 
 ##例題
 
-$f(x,y) = x^2 + y^2 \sin (xy)$ を微分せよ。
+$f(x,y) = (x^2 + y^2) \sin (xy)$ を微分せよ。
 
 ##解答
 
 $$
 \begin{align}
-\frac{\partial}{\partial x} (x^2 + y^2 \sin (xy)) &= 2x + y^2 \frac{\partial}{\partial x} \sin (xy) \\
+\frac{\partial}{\partial x} ((x^2 + y^2 )\sin (xy)) &= \frac{\partial}{\partial x}(x^2 +y^2) \sin (xy) + (x^2 + y^2) \frac{\partial}{\partial x} \sin (xy)\\
 
-&=2x + y^3 \cos(xy) \\
+&=2x \sin (xy) + (x^2 + y^2) y\cos(xy) \\
 \end{align}
 $$
